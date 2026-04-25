@@ -1,6 +1,6 @@
 This is personal Linux configuration setup for KDE-based Arch/Garuda system.
 
-It store desktop environment, shell config, themes, and installed packages so syetm can rebuild or migrate to another system quickly.
+It store desktop environment, shell config, themes, and installed packages so system can rebuild or migrate to another system quickly.
 
 ---
 
