@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/randimu/Scripts/start-glava.sh
+Icon=application-x-shellscript
+Name=start-glava.sh
+Type=Application
+X-KDE-AutostartScript=true

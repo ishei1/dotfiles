@@ -1,0 +1,15 @@
+[Keyboard]
+KeyRepeat=repeat
+NumLock=0
+RepeatDelay=250
+RepeatRate=25
+
+[Libinput][12538][4416][INSTANT USB GAMING MOUSE ]
+PointerAccelerationProfile=1
+
+[Libinput][2362][12311][ASCP1201:00 093A:3017 Touchpad]
+ClickMethod=2
+NaturalScroll=true
+PointerAccelerationProfile=1
+ScrollFactor=0.75
+TapDragLock=true
