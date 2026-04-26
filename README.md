@@ -1,4 +1,3 @@
-HEAD
 # My Linux Dotfiles
 
 This is personal Linux configuration setup for KDE-based Arch/Garuda system.
