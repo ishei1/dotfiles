@@ -1,3 +1,4 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Exec=/home/randimu/Scripts/start-glava.sh
 Icon=application-x-shellscript
