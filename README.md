@@ -65,4 +65,3 @@ This setup treats Linux as a version-controlled environment, not a static OS.
 Everything important is defined as config files rather than manual UI changes.
 
 ---
-eea41911abdbe2cb48e2f71e1fffa402eec917b2
