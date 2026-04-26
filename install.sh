@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Setting up system..."
+
+# install packages
+if [ -f pkglist.txt ]; then
+    echo "Installing packages..."
+    sudo pacman -S --needed - < pkglist.txt
+fi
+
+# copy configs
+echo "Applying configs..."
+cp -r gtk-3.0 ~/.config/
+cp -r gtk-4.0 ~/.config/
+cp autostart/* ~/.config/autostart/ 2>/dev/null
+
+cp kdeglobals ~/.config/
+cp kwinrc ~/.config/
+cp plasmarc ~/.config/
+cp plasma-org.kde.plasma.desktop-appletsrc ~/.config/
+cp kcminputrc ~/.config/
+
+# shell config
+cp .bashrc ~
+
+echo "Done. Restart KDE or reboot."
